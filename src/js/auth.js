@@ -38,13 +38,4 @@ function changeTransitionTime(newTime) {
 		}
 	}
 }
-document.addEventListener('DOMContentLoaded', function() {
-	if (window.location.hash === '#signUp') {
-		changeTransitionTime('0s');
-	  	container.classList.add("right-panel-active");
-		sleep(650).then(() => {
-			changeTransitionTime("0.6s");
-		})
-	}
-  });
   
