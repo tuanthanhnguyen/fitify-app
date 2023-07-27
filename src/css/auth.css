@@ -5,7 +5,7 @@
 }
 
 body {
-	background: #f6f5f7;
+	background-image: url("../assets/img/background2.png");
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -159,13 +159,13 @@ input {
 }
 
 .overlay {
-	background: #FF416C;
-	background: -webkit-linear-gradient(to right, #FF4B2B, #FF416C);
-	background: linear-gradient(to right, #FF4B2B, #FF416C);
+	background: #330C0C;
+	background: -webkit-linear-gradient(to right, #330C0C, #802424);
+	background: linear-gradient(to right, #802424, #330C0C);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: 0 0;
-	color: #FFFFFF;
+	color: #F7F3A1 ;
 	position: relative;
 	left: -100%;
 	height: 100%;
