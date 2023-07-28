@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 40px;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input,
+  select,
+  button {
+    margin-bottom: 10px;
+    padding: 5px;
+  }
+  
+  button {
+    cursor: pointer;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  #recipeResults {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  #recipeResults h2 {
+    margin-bottom: 10px;
+  }
+  
+  #recipeImage {
+    max-width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+  }
+  
+  #recipeLink {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  #recipeLink:hover {
+    text-decoration: underline;
+  }
+  
